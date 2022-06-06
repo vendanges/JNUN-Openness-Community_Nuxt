@@ -1,0 +1,1318 @@
+// font size
+$font-size_title: 20px;
+
+// color
+$color_black: #0B1746;
+$color_blue: #006FEA;
+$color_grey: #D9DADD;
+/*
+  导航 navbar class
+*/
+@font-face {
+  font-family: "Noto Sans SC";
+  src: url("/fonts/SourceHanSansCN-Medium.otf");
+}
+
+@font-face {
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  src: url("/fonts/Fontquan-XinYiGuanHeiTi.ttf");
+}
+
+@font-face {
+  font-family: "Source Han Sans Bold";
+  src: url("/fonts/SourceHanSansCN-Bold.otf");
+}
+
+@font-face {
+  font-family: "Source Han Sans CN Regular";
+  src: url("/fonts/SourceHanSansCN-Regular.otf");
+}
+
+/*
+  适配
+ */
+@media (max-width: 2512px) {
+  body {
+  }
+}
+@media (max-width: 1675px) {
+  body {
+    zoom: 80%;
+  }
+}
+@media (max-width: 1375px) {
+  body {
+    zoom: 60%;
+  }
+}
+@media (max-width: 1408px) {
+  body {
+    -moz-transform: scale(0.9);
+    transform-origin:top;
+  }
+}
+@media (max-width: 1369px) {
+  body {
+    -moz-transform: scale(0.8);
+    transform-origin: 40% top;
+  }
+}
+@media (max-width: 1280px) {
+  body {
+    -moz-transform: scale(0.7);
+    transform-origin: 35% top;
+  }
+}
+@media (max-width: 1237px) {
+  body {
+    -moz-transform: scale(0.6);
+    transform-origin: 35% top;
+  }
+}
+@media (max-width: 1209px) {
+  body {
+    -moz-transform: scale(0.6);
+    transform-origin: 30% top;
+  }
+}
+@media (max-width: 1109px) {
+  body {
+    -moz-transform: scale(0.6);
+    transform-origin: 25% top;
+  }
+}
+@media (max-width: 1024px) {
+  .navbar {
+    display: none;
+  }
+  .tabs {
+    display: none;
+  }
+  #contentLoadingSection {
+    display: none;
+  }
+  // 移动端适配
+  mobile {
+    display: block !important;
+    hello {
+      font-family: "Source Han Sans Bold";
+      font-size: 35px;
+      color: $color-black;
+      padding: 12px;
+      display: block;
+    }
+    navs {
+      padding: 12px;
+      margin-top: 0px;
+      display: inline-flex
+    }
+    navs li {
+      font-size: 28px;
+      font-family: "Source Han Sans CN Regular";
+      color: #D9DADD;
+      width: 72px;
+      display: inherit;
+      margin-right: 40px;
+      this {
+        color: #006FEA;
+        border-bottom: 6px solid $color_blue;
+        border-radius: 20px;
+      }
+    }
+    banner {
+      display: block;
+      height: 270px;
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+        padding-left: 10px;
+        padding-top: 10px;
+      }
+
+      .swiper-slide {
+        width: 50rem;
+        height: 11.5rem;
+        border-radius: 5px;
+        -moz-box-shadow: 6px 6px 21px #33333317;
+        box-shadow: 6px 6px 21px #33333317;
+        border-radius: 5px
+      }
+      .swiper-slide:nth-child {
+        width: 60%;
+      }
+      tops {
+        color: #0B1746;
+        display: block;
+        padding: 12px;
+        logo {
+          float: right;
+          height: 190px;
+          width: 162px;
+          margin-top: -67px;
+          display: block;
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center left;
+        }
+        .swiper-openness_engineering_group_platform_description p  {
+          font-family: "Source Han Sans Bold" !important;
+          font-size: 12px !important;
+          top: 4.2rem !important;
+          left: 0.9rem !important;
+          /* display: inline-table; */
+          color: #006FEA !important;
+          position: absolute !important;
+          overflow: visible !important;
+          width: 16rem !important;
+          overflow: hidden !important;
+          height: 2rem !important;
+        }
+        .swiper-openness_engineering_group_platform_description descript {
+          font-size: 12px;
+          font-family: "Source Han Sans CN Regular";
+          color: #D9DADD;
+          margin-left: 4px;
+        }
+        .swiper-openness_engineering_group_platform_description_this:after {
+          content: "";
+          width: 0.9px;
+          height: 61px;
+          position: absolute;
+          background: #007FFF;
+          top: -6px;
+          left: 116px;
+          margin-left: 29px;
+          transform: rotate(45deg);
+        }
+        .swiper-openness_engineering_group_platform_description p {
+          font-family: "Source Han Sans Bold";
+          font-size: 12px;
+          top: 71px;
+          /* left: 277px; */
+          /* display: inline-table; */
+          color: #006FEA;
+          position: absolute;
+          overflow: visible;
+          width: 180px;
+          overflow: hidden;
+          height: 37px;
+        }
+        data {
+          font-size: 18px;
+          text-align: end;
+          font-family: "Source Han Sans Bold";
+
+          display: block;
+          span {
+            font-size: 15px;
+          }
+        }
+      }
+      banner-title {
+
+        font-size: 25px;
+        /* width: 97%; */
+        padding: 12px;
+        display: block;
+        margin: 0 auto;
+        p {
+          color: $color_grey;
+        }
+        span {
+          color: #006FEA;
+          text-align: end;
+          display: block;
+          /* width: 130px; */
+          float: right;
+        }
+      }
+      infos {
+        titles {
+          color: #0B1746;
+          margin-left: 0.8rem;
+          width: 27rem;
+          font-size: 12px;
+          margin-top: 2rem;
+          display: block;
+        }
+        desc {
+          font-size: 15px;
+          display: block;
+          margin-left: 14px;
+        }
+        .swiper-openness_engineering_group_schedule_rate {
+          display: inline-block;
+          margin-top: 10px;
+          position: absolute;
+          margin-left: 10px;
+        }
+        .swiper-openness_engineering_group_schedule_rate ul li {
+          width: 4rem;
+          height: 0.6rem;
+          transform: skew(50deg);
+          background: #007FFF;
+          margin-left: 0.7rem;
+        }
+      }
+    }
+    main-con {
+      color: #0B1746;
+      height: 115%;
+      width: 100%;
+      /* display: list-item; */
+      /* background: aliceblue; */
+      overflow: auto;
+      position: absolute;
+      titles {
+        font-size: 25px;
+        font-family: "Source Han Sans Bold";
+        padding: 12px;
+        margin-top: 15px;
+        display: block;
+      }
+      list {
+        display: block;
+        width: 97%;
+        height: 90px;
+        text-align: left;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        -moz-box-shadow: 6px 6px 21px #33333317;
+        box-shadow: 6px 6px 21px #33333317;
+        .main-con_next {
+          height: 3rem;
+          font-size: 80px;
+          margin-right: 1rem;
+          float: right;
+          margin-top: -1rem;
+          color: #f7f7f7;
+        }
+        .main-con_list_logo {
+          position: absolute;
+          width: 6.5rem;
+        }
+        list-main {
+          /* border: 1px solid blue; */
+          /* margin-left: 110px; */
+          position: relative;
+          /* display: block; */
+          left: 110px;
+          top: 26px;
+        }
+        names {
+          font-size: 12px;
+          height: 12px;
+        }
+        .columns {
+          display: block;
+          width: 84%;
+          .column {
+            display: flex;
+            background: #006FEA;
+            margin-left: 15px;
+            width: 2rem;
+            height: 9px;
+            float: left;
+            transform: skew(50deg);
+            margin-top: 17px;
+            padding: 0;
+          }
+          .this {
+            background: #EBF1F5;
+          }
+        }
+      }
+    }
+    bottom_information {
+      background: #F8F8F9;
+      /* display: list-item; */
+      width: 100%;
+      height: 80px;
+      z-index: 999;
+      position: fixed;
+      bottom: 0;
+      .con-md-3 {
+        display: grid;
+        grid-template: repeat(1, auto)/repeat(3, minmax(auto, 100%));
+        grid-gap: 10px;
+        padding-bottom: 10px;
+        max-height: 5rem;
+      }
+      div {
+        display: block;
+        height: 78px;
+        text-align: center;
+        color: #B0B0B0;
+        .bottom_information-icon {
+          width: 3rem;
+          height: 3rem;
+          text-align: center;
+          margin-top: 0rem;
+        }
+        .this {
+          color: $color_blue;
+        }
+      }
+    }
+  }
+    .navbar-item img {
+      max-height: 60px;
+    }
+  }
+  @media (min-width: 1024px) {
+    // 移动端适配
+    mobile {
+      display: none;
+    }
+  }
+  .navbar-title {
+    font-size: $font-size_title;
+    color: $color_black;
+    font-family: "Noto Sans SC", sans-serif;
+  }
+
+  .navbar-title_info {
+    font-family: "Font Quan Xin Yi Guan Hei Ti";
+    color: $color_blue;
+  }
+
+  .navbar-menu_logo {
+    margin-left: 50px;
+    @media screen and (max-width: 1024px) {
+      margin-left: 0px;
+    }
+  }
+
+  .navbar-column_layout {
+    float: left;
+    display: flex;
+    list-style: none;
+  }
+
+  .navbar-title_a {
+    font-size: 19px;
+    font-family: "Font Quan Xin Yi Guan Hei Ti";
+    color: $color_blue;
+  }
+
+  .navbar-back_announcement {
+    background: $color_blue;
+    border-radius: 7px;
+    color: #ffffff;
+    font-family: "Font Quan Xin Yi Guan Hei Ti";
+    @media screen and (max-width: 1024px) {
+      height: 39px;
+      margin-top: 16px;
+    }
+  }
+
+  .navbar-style_width {
+    width: 1444px;
+    margin: 0 auto;
+    @media screen and (max-width: 1024px) {
+      width: 100%;
+    }
+  }
+
+  /*
+    标签选择
+   */
+.tabs li.is-active.is-active_this a {
+  border-bottom-color: $color_blue;
+  border-bottom: 3px solid $color_blue;
+}
+.isactive_this a p {
+  color: red;
+}
+.active-mouse_over:hover span {
+  color: $color_blue;
+  transition: all 0.08s;
+}
+
+.active-mouse_over:hover over {
+  color: $color_black;
+  transition: all 0.08s;
+}
+
+li.is-active a:hover{
+  border-bottom-color: $color_blue;
+  border-bottom: 3px solid $color_blue;
+  transition: all 0.08s;
+}
+
+.tabs-title {
+  font-family: "Noto Sans SC";
+  font-size: 18px;
+  color: $color_black;
+}
+
+.istabs {
+  font-family: "Noto Sans SC";
+  color: $color-grey;
+  font-size: 18px;
+}
+.istabs-info {
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  color: $color-grey;
+  font-size: 18px;
+}
+.tabs-title_info {
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  font-size: 18px;
+  color: $color_blue;
+  .istabs-title{
+    color: $color_grey;
+  }
+}
+
+// banner .swiper
+.swiper {
+  width: 1440px;
+  height: 285px;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-title {
+  font-family: "Source Han Sans Bold";
+  font-size: 25px;
+  color: $color_blue;
+  margin-bottom: 12px;
+  margin-top: 50px;
+}
+
+.swiper-title span {
+  font-size: 30px;
+  color: $color_black;
+}
+
+.swiper-button {
+  border-radius: 0;
+  height: 21px;
+  background: #006FEA;
+  color: #FFF;
+}
+
+.swiper-button:hover {
+  color: #FFFFFF;
+}
+
+.swiper-button:focus {
+  color: #FFFFFF;
+}
+
+.swiper-button_next:after {
+  content: '';
+  background: url("/img/style/swiper-button_next.png");
+  display: inline-block;
+  width: 46px;
+  height: 22px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center left;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.swiper-button:hover .swiper-button_next:after {
+  content: '';
+  background: url("/img/style/swiper-button_next.png");
+  display: inline-block;
+  width: 46px;
+  height: 22px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center left;
+  margin-left: 20px;
+  margin-top: 5px;
+  transition: all 0.08s;
+}
+
+.swiper-logo_openness_council  img {
+  width: 192px;
+  height: auto;
+  left: 799px;
+  position: absolute;
+  top: 48px;
+}
+
+// swiper-openness_council
+.swiper-logo_openness_council p {
+  position: absolute;
+}
+
+.swiper-openness_council_data {
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  color: #ffffff;
+  font-size: 16px;
+  top: 21px;
+  transform: rotate(-45deg);
+  right: 660px;
+}
+
+.swiper-openness_council_title {
+  top: -21px;
+  position: absolute;
+  width: 532px;
+}
+
+.swiper-openness_council_title button{
+  top: 147px;
+}
+
+.swiper-openness_council_datatitle {
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  color: $color_black;
+  font-size: 15px;
+  top: 171px;
+  left: 208px;
+}
+
+.swiper-openness_council_titlename {
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  color: $color_black;
+  font-size: 15px;
+  top: 176px;
+  right: 66px;
+}
+
+.swiper-openness_council_titlename span {
+  font-size: 24px;
+}
+
+// swiper-openness_engineering_group
+.swiper-openness_engineering_group_info img {
+  position: absolute;
+}
+.swiper-openness_engineering_group_info p {
+  position: absolute;
+}
+.swiper-openness_engineering_group_title_logo {
+  width: 221px;
+  top: 21px;
+  height: auto;
+  left: 20px;
+}
+.swiper-openness_engineering_group_title_next {
+  width: 97px;
+  top: 116px;
+  left: 323px;
+}
+
+.swiper-openness_engineering_group_title_name {
+  font-size: 15px;
+  color: $color-blue;
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  left: 496px;
+  top: 107px;
+}
+
+.swiper-openness_engineering_group_title_name span {
+  font-size: 20px;
+  font-family: "Source Han Sans Bold";
+  color: $color-black;
+}
+
+.swiper-openness_engineering_group_platform_description p {
+  font-family: "Source Han Sans Bold";
+  font-size: 15px;
+  top: 209px;
+  left: 227px;
+  color: $color-blue;
+}
+
+.swiper-openness_engineering_group_platform_description span {
+  color: $color-black;
+}
+
+.swiper-openness_engineering_group_platform_description descript {
+  font-size: 12px;
+  font-family: "Source Han Sans CN Regular";
+  color: $color_grey;
+  margin-left: 4px;
+}
+.swiper-openness_engineering_group_platform_description_this:after {
+  content: "";
+  width: 0.9px;
+  height: 61px;
+  position: absolute;
+  background: #007FFF;
+  top: -8px;
+  margin-left: 29px;
+  transform: rotate(45deg);
+}
+
+.swiper-openness_engineering_group_platform_description_next {
+  margin-left: 181px;
+  width: 181px;
+  height: 41px;
+  overflow: hidden;
+}
+
+.swiper-openness_engineering_group_schedule {
+  top: 168px;
+  position: absolute;
+  width: 248px;
+  left: 479px;
+}
+.swiper-openness_engineering_group_schedule p {
+  font-family: "Source Han Sans Bold";
+  font-size: 12px;
+  color: $color_grey;
+  margin-left: 133px;
+  top: 6px;
+  padding-left: 19px;
+  border-left: 1.5px solid $color_grey;
+}
+
+.swiper-openness_engineering_group_schedule img {
+  width: 117px;
+}
+
+.swiper-openness_engineering_group_schedule span {
+  font-size: 15px;
+  color: $color_black;
+}
+
+.swiper-openness_engineering_group_schedule_rate {
+  margin-top: 67px;
+  margin-left: 125px;
+  .this {
+    background: #EBF1F5;
+  }
+}
+
+.swiper-openness_engineering_group_schedule_rate ul li {
+  width: 121px;
+  height: 9px;
+  transform: skew(50deg);
+  background: #007FFF;
+  margin-left: 10px;
+}
+
+.swiper-openness_engineering_group_schedule_rate ul {
+  float: left;
+  display: flex;
+}
+
+.swiper-openness_engineering_group_schedule_info {
+  position: absolute;
+  top: 164px;
+  right: 656px;
+  font-size: 12px;
+  color: #D9DADD;
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+ }
+
+.swiper-openness_engineering_group_info desc_info {
+  position: absolute;
+  top: 181px;
+  right: 273px;
+  width: 393px;
+  font-size: 12px;
+  color: #D9DADD;
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+}
+
+.swiper-openness_engineering_group_info desc_data {
+  position: absolute;
+  top: 161px;
+  right: 126px;
+  font-size: 15px;
+  color: white;
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+}
+
+// openness_proposal-main_content
+.openness_proposal-main_content {
+  width: 1440px;
+  height: 0;
+  margin: 0 auto;
+  display: grid;
+}
+.openness_proposal-main_content start {
+  margin: 0 auto;
+  display: table;
+  margin-top: 2px;
+  p {
+    position: relative;
+  }
+}
+
+.openness_proposal-main_content sidebar svg {
+  left: 1115px;
+  top: -85px;
+  position: relative;
+}
+.openness_proposal-main_title {
+  font-size: 24px;
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  color: #0B1746;
+  top: -127px;
+  left: 140px;
+}
+
+.openness_proposal-main_title_info {
+  font-size: 24px;
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  color: #0B1746;
+  top: -104px;
+  right: -1128px;
+}
+
+.openness_proposal-main_idea {
+  width: 111px;
+  right: -1140px;
+  position: relative;
+  top: -1301px;
+}
+
+.openness_proposal-main_proposal {
+  width: 94px;
+  right: -1204px;
+  position: relative;
+  top: -1321px;
+}
+
+.openness_proposal-main_idea_update {
+  font-family: "Font Quan Xin Yi Guan Hei Ti";
+  font-size: 15px;
+  color: #ffffff;
+  position: relative;
+  right: -1266px;
+  top: -1187px;
+  width: 180px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.openness_proposal-main_idea_update:hover {
+  color: #ffffffd1;
+  transition: all 1.08s;
+}
+.openness_proposal-main_content sidebar-con {
+  position: relative;
+  top: -1275px;
+  right: -1130px;
+  width: 303px;
+  overflow: auto;
+  display: block;
+  p {
+    font-size: 14px;
+    color: $color-black;
+    font-family: "Font Quan Xin Yi Guan Hei Ti";
+  }
+  descript p {
+    font-size: 12px;
+    font-family: "Source Han Sans CN Regular";
+    margin-top: 10px;
+  }
+}
+
+.layui-colla-title:after {
+  content: "";
+  background-image: url(/img/style/layui-colla-title.png);
+  display: -webkit-box;
+  width: 13.83px;
+  height: 22.83px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center left;
+  float: left;
+  margin-left: -20px;
+}
+
+.layui-colla-item down {
+  /* left: 65px; */
+  top: 10px;
+  background-image: url(/img/style/layui-colla-item.png);
+  display: -webkit-box;
+  float: left;
+  width: 13px;
+  height: 6px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center left;
+  left: 230px;
+  position: inherit;
+}
+
+.layui-colla-content desc {
+  font-family: "Source Han Sans CN Regular";
+  color: #0B1746;
+  font-size: 12px;
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #D9DADD;
+  call {
+    color: $color-blue;
+  }
+}
+
+sidebar-info {
+  top: 530px;
+  position: absolute;
+  div {
+    font-family: "Source Han Sans CN Regular";
+    width: 1079px;
+    margin-bottom: 23px;
+    border-bottom: 2px solid $color_grey;
+    padding-bottom: 20px;
+  }
+  div number {
+    color: $color-blue;
+    font-size: 15px;
+  }
+  div titles {
+    font-size: 20px;
+    color: $color_black
+  }
+  div tag name {
+    color: white;
+    padding: 3px;
+    font-size: 9px;
+    font-style: normal;
+    transform: skew(10deg);
+    display: inline-block;
+    margin-left: 5px;
+  }
+  div outher {
+    right: -44px;
+    position: absolute;
+    width: 159px;
+    display: inline-block;
+    data {
+      font-size: 15px;
+      color: $color_grey;
+    }
+    data:after {
+      content: "";
+      background-image: url(/img/style/sidebar-info_data.png);
+      display: inline-block;
+      width: 19.9px;
+      height: 20.73px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center left;
+      position: relative;
+      left: -85px;
+      top: 6px;
+    }
+    people {
+      color: $color-blue;
+      margin-left: 16px;
+    }
+    people:after {
+      content: "";
+      background-image: url(/img/style/sidebar-info_people.png);
+      display: inline-block;
+      width: 32px;
+      height: 19px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center left;
+      position: relative;
+      left: -49px;
+      top: 3px;
+    }
+  }
+  space {
+    width: 937px;
+    height: 141px;
+    display: block;
+    margin-bottom: 55px;
+    background-image: url(/img/style/sidebar-info_space.png);
+    /* display: inline-block; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left;
+    margin-top: 20px;
+    logos {
+      width: 140px;
+      height: 119px;
+      display: inline-block;
+      /* top: 17px; */
+      position: revert;
+      margin-left: 10px;
+      margin-top: 9px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center left;
+    }
+    titles {
+      font-size: 20px;
+      font-family: "Source Han Sans Bold";
+      color: $color-black;
+      span {
+        font-family: "Source Han Sans CN Regular";
+        font-size: 15px;
+        color: $color-grey;
+      }
+    }
+    rank {
+      /* top: 47px; */
+      position: relative;
+      left: 170px;
+      height: 50px;
+      display: block;
+      width: 753px;
+      margin-top: -83px;
+    }
+  }
+  space:hover {
+    cursor: pointer;
+    transition: all 0.18s;
+    background-image: url(/img/style/sidebar-info_space_hover.png);
+  }
+  decor {
+    svg {
+      width: 46.5px;
+      height: 845px;
+      margin-left: -120px;
+      margin-top: -1000px;
+    }
+  }
+}
+
+// bottom
+bottom {
+  position: relative;
+  top: -1113px;
+  width: 1424px;
+  banner {
+    font-family: "Font Quan Xin Yi Guan Hei Ti";
+    display: grid;
+    height: 231px;
+    background-image: url(/img/style/bottom-banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left;
+    position: relative;
+    color: #FFFFFF;
+    titles {
+      width: 162px;
+      height: 74px;
+      padding: 22px 22px 0px;
+      font-size: 20px;
+    }
+    titles:after {
+      content: "";
+      display: inline-block;
+      width: 29.9px;
+      height: 1.73px;
+      top: -6px;
+      position: relative;
+      background: white;
+    }
+    info {
+      width: 337px;
+      padding-left: 22px;
+      font-size: 13px;
+      height: 54px;
+      position: relative;
+      top: 13px;
+    }
+    btn {
+      width: 211px;
+      height: 40.5px;
+      text-align: start;
+      line-height: 2.5;
+      position: relative;
+      top: 50px;
+      background-image: url(/img/style/bottom-banner_btn.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center left;
+      position: relative;
+      padding-left: 44px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+    btn:hover {
+      opacity: 0.897;
+      transition: all 0.18s;
+    }
+    next {
+      width: 81px;
+      height: 39px;
+      right: -1260px;
+      position: relative;
+      font-size: 24px;
+    }
+  }
+  news {
+    width: 1439px;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 224px;
+    data {
+      color: white;
+      font-family: "Source Han Sans CN Regular";
+      box-sizing:border-box;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center left;
+      tag {
+        font-size: 12px;
+        margin-top: 80px;
+        width: 357.5px;
+        display: block;
+        height: 20px;
+        line-height: 2.3;
+        background-image: url(/img/style/bottom-news_tag.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center left;
+      }
+      titles {
+        font-size: 20px;
+      }
+      desc {
+        font-size: 12px;
+        display: block;
+      }
+      icon {
+        width: 196px;
+        text-align: center;
+        display: block;
+        margin-top: 70px;
+        font-size: 16px;
+      }
+    }
+    data:hover {
+      opacity: 0.7;
+      cursor: pointer;
+      transition: all 0.18s;
+    }
+  }
+  recom {
+    font-family: "Font Quan Xin Yi Guan Hei Ti";
+    color: #0B1746;
+    margin-top: 30px;
+    display: block;
+    height: 223px;
+    useless {
+      width: 240px;
+      display: block;
+
+      navs {
+        font-size: 24px;
+        display: block;
+        line-height: 0.8;
+        margin-bottom: 30px;
+        width: 193px;
+        padding-left: 20px;
+        icon svg {
+          position: absolute;
+          margin-left: 30px;
+          margin-top: 11px;
+        }
+        span {
+          font-size: 12px;
+          color: $color-blue;
+        }
+      }
+
+      navs:after {
+        content: '';
+        width: 7px;
+        height: 40px;
+        /* background: red; */
+        display: block;
+        position: absolute;
+        background: linear-gradient(180deg, #006FEA 0%, rgba(0, 111, 234, 0) 100%);
+        margin-left: -20px;
+        margin-top: -40px;
+      }
+
+      navs:hover {
+        transform: translate(13px);
+        transition: 90ms;
+        cursor: pointer;
+      }
+    }
+    infos {
+      width: 1145px;
+      position: relative;
+      left: 294px;
+      height: 210px;
+      top: -208px;
+      display: inline-block;
+      trend {
+        border: 1px solid rgba(255, 255, 255, 0);
+        text-align: end;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center left;
+        tag {
+          font-size: 12px;
+          margin-top: 123px;
+          font-size: 12px;
+          display: block;
+          background-image: url(/img/style/bottom-recom_infos_trend_tag.png);
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center left;
+          display: block;
+          line-height: 3;
+          color: white;
+          height: 30px;
+          width: 471px;
+        }
+        titles {
+          font-size: 20px;
+          display: block;
+          width: 461px;
+          color: white;
+        }
+      }
+      trend:hover {
+        opacity: 0.7;
+        cursor: pointer;
+        transition: all 0.18s;
+      }
+    }
+  }
+}
+
+end {
+  display: block;
+  height: 299px;
+  background: #F8F8F8;
+  position: relative;
+  top: -1121px;
+  padding: 4%;
+  titles {
+    p {
+      font-size: 25px;
+      font-family: "Font Quan Xin Yi Guan Hei Ti";
+      color: $color_black;
+      display: block;
+      span {
+        color: $color-blue;
+      }
+    }
+    desc {
+      font-family: "Source Han Sans CN Regular";
+      color: $color-black;
+      width: 828px;
+      display: block;
+      margin-top: 11px;
+      margin-bottom: 15px;
+    }
+  }
+  btn-lat {
+    height: 50px;
+    display: block;
+    width: 330px;
+    btn {
+      background: #D9DADD;
+      width: 49px;
+      transform: skew(13deg);
+      height: 41px;
+      font-style: italic;
+      display: inline-table;
+      font-family: "Font Quan Xin Yi Guan Hei Ti";
+      margin-right: 21px;
+      cursor: pointer;
+      smip {
+        color: $color-blue;
+        display: block;
+      }
+      span {
+        color: $color-black;
+      }
+    }
+  }
+  btn:hover {
+    transition: all 0.38s;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    border-left: 14px solid #006fea;
+  }
+  end-logo {
+    background-image: url(/img/style/end-end_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left;
+    height: 298px;
+    width: 496px;
+    display: block;
+    margin-top: -237px;
+    position: relative;
+    left: 886px;
+  }
+}
+copyright {
+  top: -1080px;
+  position: relative;
+  height: 65px;
+  display: block;
+  img {
+    width: 299px;
+  }
+  ciot {
+    right: 0px;
+    font-family: "Source Han Sans CN Regular";
+    font-size: 20px;
+    position: absolute;
+    height: 64.78px;
+    line-height: 4.5;
+  }
+}
+
+end-nav {
+  color: $color-black;
+  display: block;
+  position: relative;
+  top: -1140px;
+  titles {
+    font-family: "Font Quan Xin Yi Guan Hei Ti";
+    font-size: 24px;
+    position: relative;
+    width: 212px;
+    top: 36px;
+    display: block;
+    text-align: center;
+  }
+  navsa {
+    color: #006FEA;
+    font-family: "Font Quan Xin Yi Guan Hei Ti";
+    font-size: 24px;
+    float: left;
+    display: flex;
+    position: absolute;
+    left: 222px;
+    height: 77px;
+    width: 998px;
+    div {
+      line-height: 3;
+      width: 210px;
+      nav-title {
+        text-align: center;
+        margin-left: 91px;
+      }
+      img {
+        margin-left: 0px;
+        top: 12px;
+        margin-left: 37px;
+        position: absolute;
+      }
+    }
+  }
+}
