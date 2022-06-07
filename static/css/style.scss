@@ -438,18 +438,21 @@ $color_grey: #D9DADD;
 }
 .active-mouse_over:hover span {
   color: $color_blue;
-  transition: all 0.08s;
+  transition: all 0.1s;
 }
 
 .active-mouse_over:hover over {
   color: $color_black;
-  transition: all 0.08s;
+  transition: all 0.1s;
 }
 
-li.is-active a:hover{
-  border-bottom-color: $color_blue;
+.is-active_click {
   border-bottom: 3px solid $color_blue;
-  transition: all 0.08s;
+  display: block;
+}
+
+.active_clicke:hover {
+  border-bottom: 3px solid $color_blue;
 }
 
 .tabs-title {
@@ -852,7 +855,7 @@ li.is-active a:hover{
   position: inherit;
 }
 
-.layui-colla-content desc {
+sidebar-condesc {
   font-family: "Source Han Sans CN Regular";
   color: #0B1746;
   font-size: 12px;
@@ -1207,7 +1210,7 @@ end {
         color: $color-blue;
       }
     }
-    desc {
+    descs {
       font-family: "Source Han Sans CN Regular";
       color: $color-black;
       width: 828px;

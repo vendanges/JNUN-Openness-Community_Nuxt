@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Openness Community - supports your ideas and gets involved to complete them with you',
+    title: 'Openness Community - Supports your ideas and gets involved to complete them with you',
     htmlAttrs: {
       lang: 'en',
     },
@@ -12,9 +12,17 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: '/favicon.png' , sizes: '32x32'},
-      { rel: 'apple-touch-icon', href: '/favicon_180.png' , sizes: '180x180'}
+      { rel: 'icon', type: 'image/png', href: '/favicon.png' , sizes: '32x32' },
+      { rel: 'apple-touch-icon', href: '/favicon_180.png' , sizes: '180x180' },
+      { rel: 'stylesheet', href: '/css/bulma.css' },
+      { rel: 'stylesheet', href: '/css/style.css' },
+      { rel: 'stylesheet', href: '/css/swiper-bundle.css' },
+      { rel: 'stylesheet', href: '/css/layui.css' }
     ],
+    script: [
+      { src: '/js/layui.js', charset: 'utf-8' },
+      { src: '/js/jquery.min.js', charset: 'utf-8'},
+    ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

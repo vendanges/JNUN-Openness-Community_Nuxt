@@ -423,18 +423,21 @@ mobile banner body {
 
 .active-mouse_over:hover span {
   color: #006FEA;
-  transition: all 0.08s;
+  transition: all 0.1s;
 }
 
 .active-mouse_over:hover over {
   color: #0B1746;
-  transition: all 0.08s;
+  transition: all 0.1s;
 }
 
-li.is-active a:hover {
-  border-bottom-color: #006FEA;
+.is-active_click {
   border-bottom: 3px solid #006FEA;
-  transition: all 0.08s;
+  display: block;
+}
+
+.active_clicke:hover {
+  border-bottom: 3px solid #006FEA;
 }
 
 .tabs-title {
@@ -843,7 +846,7 @@ li.is-active a:hover {
   position: inherit;
 }
 
-.layui-colla-content desc {
+sidebar-condesc {
   font-family: "Source Han Sans CN Regular";
   color: #0B1746;
   font-size: 12px;
@@ -851,7 +854,7 @@ li.is-active a:hover {
   padding: 10px;
   border-bottom: 1px solid #D9DADD;
 }
-.layui-colla-content desc call {
+sidebar-condesc call {
   color: #006FEA;
 }
 
@@ -1192,7 +1195,7 @@ end titles p {
 end titles p span {
   color: #006FEA;
 }
-end titles desc {
+end titles descs {
   font-family: "Source Han Sans CN Regular";
   color: #0B1746;
   width: 828px;

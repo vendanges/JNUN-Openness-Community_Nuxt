@@ -1,0 +1,327 @@
+<template>
+  <main>
+    <!-- contentLoadingSection -->
+    <div id="contentLoadingSection">
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="columns">
+              <div class="column"><p class="swiper-title">一起构建美好<br>
+                <span>任何提案,我们都将随之实现并为此努力</span></p>
+                <button class="button is-small swiper-button">阅读我们的章程<span class="swiper-button_next"></span></button>
+              </div>
+              <div class="column">
+                <img src="/img/openness-proposal/banner.png">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">null</div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <script src="/js/swiper-bundle.js"></script>
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+      <!-- 内容主要区域 -->
+      <div class="openness_proposal-main_content">
+        <start>
+          <svg width="1446" height="83" viewBox="0 0 1446 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 19L1074.5 19L1124 58.5H1445V83" stroke="#D9DADD"/>
+            <path d="M1 1L5.5 5.5L1 10" stroke="#D9DADD" stroke-width="2"/>
+            <path d="M9 1L13.5 5.5L9 10" stroke="#D9DADD" stroke-width="2"/>
+            <path d="M17 1L21.5 5.5L17 10" stroke="#D9DADD" stroke-width="2"/>
+          </svg>
+          <p class="openness_proposal-main_title">社区最新讨论</p>
+          <p class="openness_proposal-main_title_info">发布提案或想法</p>
+        </start>
+        <sidebar>
+          <svg width="331" height="1230" viewBox="0 0 331 1230" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M35.7373 19.5H330.5V1226.74L0.5 876.801V62.6781L35.7373 19.5Z" stroke="#D9DADD"/>
+            <path d="M160 20L175 70.75L160 121.5L121 160.5H1.5" stroke="#D9DADD"/>
+            <path d="M331 161H120L160.5 120.5H331V161Z" fill="#006FEA" style="cursor: pointer;"/>
+            <path d="M234.663 15L235.833 3.99H234.243L233.103 15H234.663ZM235.827 15H237.402L238.287 6.57L243.372 15H244.947L246.087 3.99H244.527L243.672 12.15L238.707 3.99H236.982L235.827 15ZM246.081 15H247.641L248.166 9.96H253.476L253.641 8.4H248.331L248.646 5.535H254.346L254.871 3.99H247.221L246.081 15ZM256.055 3.99L254.87 15H262.64L263.825 3.99H256.055ZM257.465 5.535H262.1L261.26 13.455H256.64L257.465 5.535ZM273.969 3.99L273.354 10.065H279.489L279.144 13.455H272.814L273.024 15H280.524L281.199 8.52H275.094L275.394 5.535H279.939L279.849 6.39H281.394L281.649 3.99H273.969ZM284.392 3.99H282.832L281.647 15H289.402L290.587 3.99H289.027L288.022 13.455H283.402L284.392 3.99ZM290.583 15H298.638L299.163 10.005L298.713 9.225L299.328 8.46L299.793 3.99H291.738L290.583 15ZM292.833 8.46L293.133 5.535H298.053L297.753 8.46H292.833ZM292.308 13.455L292.668 10.005H297.588L297.228 13.455H292.308ZM308.947 3.99L305.092 10.995L302.707 3.99H300.952L299.797 15H301.357L302.152 7.395L303.967 12.675H305.872L308.767 7.395L307.957 15H309.547L310.687 3.99H308.947ZM312.241 15L313.411 3.99H311.821L310.681 15H312.241ZM316.435 15H318.025L319.015 5.535H322.765L322.9 3.99H313.87L313.705 5.535H317.44L316.435 15Z" fill="#D9DADD"/>
+            <path d="M39 5L43.5 9.5L39 14" stroke="#D9DADD" stroke-width="2"/>
+            <path d="M47 5L51.5 9.5L47 14" stroke="#D9DADD" stroke-width="2"/>
+            <path d="M55 5L59.5 9.5L55 14" stroke="#D9DADD" stroke-width="2"/>
+            <path d="M2 22H34L2 60.5V22Z" stroke="#D9DADD" stroke-opacity="0.24"/>
+            <path d="M10 30H18L10 40V30Z" fill="#006FEA"/>
+            <path d="M5.5 882V900.5L313 1229V1208.5" stroke="#D9DADD" stroke-width="0.5"/>
+          </svg>
+          <sidebar-body>
+            <p class="openness_proposal-main_idea_update">提交提案与想法</p>
+            <img src="/img/openness-proposal/sidebar-body_opennesssidea.png" class="openness_proposal-main_idea">
+            <img src="/img/openness-proposal/sidebar-body_proposal.png" class="openness_proposal-main_proposal">
+          </sidebar-body>
+          <sidebar-con>
+            <p>联合现在的目标和使命是<br>面向网络推动互联网的正义与开放和创新</p>
+            <descript><p>对此，我们面向网络征集对此有关的提案，并在之后数年时间内对提案进行实现。当提案数据超出 <a href="">影响因子</a> 后，联合现在（大会或机构负责人、理事会成员等）将会做出回应，并添加至工程计划中。</p></descript>
+            <!-- Q&A -->
+            <div class="layui-collapse" lay-accordion="" style="background: white;">
+              <div class="layui-colla-item">
+                <h2 class="layui-colla-title">这些提案会被删除或隐藏<down /></h2>
+                <div class="layui-colla-content layui-show">
+                  <sidebar-condesc>包含对特定个体或群体有害的内容<call>(例如针对暴力、挑逗、仇恨、人身攻击、违反人类道德、伦理、色情)</call> 的提案会被删除。</sidebar-condesc>
+                  <sidebar-condesc>与<call>内容相同的重复提案将</call>会被合并、隐藏、 删除， 只留下一份提案。</sidebar-condesc>
+                  <sidebar-condesc><call>涵盖个人信息 、 虚假信息或诽谤他人</call>的内容将会被理事会删除或隐藏、编辑部分信息。</sidebar-condesc>
+                </div>
+              </div>
+              <div class="layui-colla-item">
+                <h2 class="layui-colla-title">以下提案可能很难实现或无法执行 <down /></h2>
+                <div class="layui-colla-content">
+                  <sidebar-condesc>null</sidebar-condesc>
+                </div>
+              </div>
+            </div>
+            <script>
+              layui.use(['dropdown', 'util', 'layer'], function(){
+                var element = layui.element;
+                var layer = layui.layer;
+
+                //监听折叠
+                element.on('collapse(test)', function(data){
+                  layer.msg('展开状态：'+ data.show);
+                });
+              });
+            </script>
+          </sidebar-con>
+          <!-- 社区讨论 -->
+          <sidebar-info>
+            <div>
+              <number>(C)22/2354 </number><br>
+              <titles><a href="#">The concept of air remote identification system</a></titles>
+              <tag>
+                <name style="background: #05741D">military</name>
+                <name style="background: #1B66BA">computer science</name>
+                <name style="background: #6E8BAB">neural learning</name>
+              </tag>
+              <outher><data>on 2 Feb</data><people>&nbsp;47</people></outher>
+            </div>
+            <div>
+              <number>(C)22/2354 </number><br>
+              <titles><a href="#">Speech recognition execution</a></titles>
+              <tag>
+                <name style="background: #05741D">military</name>
+                <name style="background: #1B66BA">computer science</name>
+                <name style="background: #6E8BAB">neural learning</name>
+              </tag>
+              <outher><data>on 2 Feb</data><people>47</people></outher>
+            </div>
+            <div>
+              <number>(C)22/2354 </number><br>
+              <titles><a href="#">The concept of air remote identification system</a></titles>
+              <tag>
+                <name style="background: #05741D">military</name>
+                <name style="background: #1B66BA">computer science</name>
+                <name style="background: #6E8BAB">neural learning</name>
+              </tag>
+              <outher><data>on 2 Feb</data><people>&nbsp;47</people></outher>
+            </div>
+            <div>
+              <number>(C)22/2354 </number><br>
+              <titles><a href="#">The concept of air remote identification system</a></titles>
+              <tag>
+                <name style="background: #05741D">military</name>
+                <name style="background: #1B66BA">computer science</name>
+                <name style="background: #6E8BAB">neural learning</name>
+              </tag>
+              <outher><data>on 2 Feb</data><people>47</people></outher>
+            </div>
+            <div>
+              <number>(C)22/2354 </number><br>
+              <titles><a href="#">The concept of air remote identification system</a></titles>
+              <tag>
+                <name style="background: #05741D">military</name>
+                <name style="background: #1B66BA">computer science</name>
+                <name style="background: #6E8BAB">neural learning</name>
+              </tag>
+              <outher><data>on 2 Feb</data><people>&nbsp;47</people></outher>
+            </div>
+            <div>
+              <number>(C)22/2354 </number><br>
+              <titles><a href="#">The concept of air remote identification system</a></titles>
+              <tag>
+                <name style="background: #05741D">military</name>
+                <name style="background: #1B66BA">computer science</name>
+                <name style="background: #6E8BAB">neural learning</name>
+              </tag>
+              <outher><data>on 2 Feb</data><people>47</people></outher>
+            </div>
+            <div>
+              <number>(C)22/2354 </number><br>
+              <titles><a href="#">The concept of air remote identification system</a></titles>
+              <tag>
+                <name style="background: #05741D">military</name>
+                <name style="background: #1B66BA">computer science</name>
+                <name style="background: #6E8BAB">neural learning</name>
+              </tag>
+              <outher><data>on 2 Feb</data><people>47</people></outher>
+            </div>
+            <div>
+              <number>(C)22/2354 </number><br>
+              <titles><a href="#">The concept of air remote identification system</a></titles>
+              <tag>
+                <name style="background: #05741D">military</name>
+                <name style="background: #1B66BA">computer science</name>
+                <name style="background: #6E8BAB">neural learning</name>
+              </tag>
+              <outher><data>on 2 Feb</data><people>47</people></outher>
+            </div>
+            <div>
+              <number>(C)22/2354 </number><br>
+              <titles><a href="#">The concept of air remote identification system</a></titles>
+              <tag>
+                <name style="background: #05741D">military</name>
+                <name style="background: #1B66BA">computer science</name>
+                <name style="background: #6E8BAB">neural learning</name>
+              </tag>
+              <outher><data>on 2 Feb</data><people>47</people></outher>
+            </div>
+            <div>
+              <number>(C)22/2354 </number><br>
+              <titles><a href="#">The concept of air remote identification system</a></titles>
+              <tag>
+                <name style="background: #05741D">military</name>
+                <name style="background: #1B66BA">computer science</name>
+                <name style="background: #6E8BAB">neural learning</name>
+              </tag>
+              <outher><data>on 2 Feb</data><people>47</people></outher>
+            </div>
+            <nav class="pagination" role="navigation" aria-label="pagination">
+              <a class="pagination-previous" style="margin-right: -18px;"><img src="/img/openness-proposal/pagination-previous.png" style="width: 79px"></a>
+              <a class="pagination-next"><img src="/img/openness-proposal/pagination-next.png" style="width: 59px"></a>
+              <ul class="pagination-list">
+                <li>
+                  <a class="pagination-link" aria-label="Goto page 1">1</a>
+                </li>
+                <li>
+                  <span class="pagination-ellipsis">&hellip;</span>
+                </li>
+                <li>
+                  <a class="pagination-link" aria-label="Goto page 45">45</a>
+                </li>
+                <li>
+                  <a class="pagination-link is-current" aria-label="Page 46" aria-current="page">46</a>
+                </li>
+                <li>
+                  <a class="pagination-link" aria-label="Goto page 47">47</a>
+                </li>
+                <li>
+                  <span class="pagination-ellipsis">&hellip;</span>
+                </li>
+                <li>
+                  <a class="pagination-link" aria-label="Goto page 86">86</a>
+                </li>
+              </ul>
+            </nav>
+          </sidebar-info>
+        </sidebar>
+        <!-- 底部信息 -->
+        <bottom>
+          <!-- 理念横幅 -->
+          <banner>
+            <titles>联合<br>
+              应对威胁与挑战</titles>
+            <info>与全世界的各个社区开源贡献者，协同交流与工作，共同完善互联网基础设施。通过开放性理论实现互联网的开放、共享，任何人都可以参与一项研究和阐述一份想法并得到支持和学习途径。</info>
+            <btn>提交提案与想法</btn>
+            <next>最新动态</next>
+          </banner>
+          <!-- 新闻动态 -->
+          <news class="columns" style="margin: 0 auto;margin-top: 30px;">
+            <data class="column is-one-quarter" style="width: 26.7%;margin-right: 21px;background-image: linear-gradient(90deg, #006FEA -20.72%, rgba(0, 111, 234, 0) 179.41%), url(/img/openness-proposal/news/warplanes.png);">
+              <tag>(C)22/2354</tag>
+              <titles>The concept of air remote identification system</titles>
+              <desc>This is really the greatest discovery in human history, through this research can improve the global network security</desc>
+            </data>
+            <data class="column is-one-quarter" style="width: 26.7%;margin-right: 21px;background-image: linear-gradient(90deg, #006FEA -20.72%, rgba(0, 111, 234, 0) 179.41%), url(/img/openness-proposal/news/audio.png);">
+              <tag>(C)22/2354 </tag>
+              <titles>Speech recognition execution</titles>
+              <desc>This is really the greatest discovery in human history, through this research can improve the global network security,Maybe it's a Nobel Prize winner</desc>
+            </data>
+            <data class="column is-one-quarter" style="width: 26.7%;margin-right: 21px;background-image: linear-gradient(90deg, #006FEA -20.72%, rgba(0, 111, 234, 0) 179.41%), url(/img/openness-proposal/news/teenager.png);">
+              <tag>(C)22/2354 </tag>
+              <titles>Emotion recognition</titles>
+              <desc>This is really the greatest discovery in human history, through this research can improve global network security, this is our greatest achievement</desc>
+            </data>
+            <data class="column is-one-fifth" style="width: 222px;background: linear-gradient(90deg, #006FEA 0%, rgba(0, 111, 234, 0) 100%);">
+              <icon>
+                <center><svg width="52" height="40" viewBox="0 0 52 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.25586 1.42261H50.5892" stroke="white" stroke-width="2.41667" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M1.25586 19.9226H50.5892" stroke="white" stroke-width="2.41667" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M1.25586 38.4226H50.5892" stroke="white" stroke-width="2.41667" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg></center>
+                MORE
+              </icon>
+            </data>
+          </news>
+          <!-- 每周推荐 -->
+          <recom>
+            <useless>
+              <navs class="recom-useless_arrow">本周核心提案推荐<icon>
+                <svg width="38" height="14" viewBox="0 0 38 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M29 1L36 7.3L29.6667 13" stroke="#0B1746" stroke-width="1.5"/>
+                  <path d="M36 7H-2.68221e-07" stroke="#0B1746" stroke-width="1.5"/>
+                </svg>
+              </icon><br><span>构建基础互联网的安全应对方式</span></navs>
+              <navs style="margin-left: 26px">下轮提案推举<br><span>让所有想法都可能展现再世人面前</span></navs>
+              <navs style="margin-left: 45px">最新提案列表<br><span>本周所发布的最新提案</span></navs>
+            </useless>
+            <infos>
+              <trend style="background-image: url(/img/openness-proposal/recom/tcp-udp_security.png);display: block;width: 580px;height: 190px;">
+                <tag>(E)22/2354 </tag>
+                <titles>TCP/UDP Security and Port Security</titles>
+              </trend>
+              <trend style="background-image: url(/img/openness-proposal/recom/radar.png);display: block;width: 561px;position: relative;background-size: 560px;top: -190px;right: -583px;height: 190px;">
+                <tag style="margin-left: 82px;">(E)22/2354 </tag>
+                <titles style="margin-left: 92px;">TCP/UDP Security and Port Security</titles>
+              </trend>
+            </infos>
+          </recom>
+        </bottom>
+        <!-- 最终信息 -->
+        <end>
+          <titles>
+            <p>关于开放社区<br><span>OPENNESS COMMUNITY</span></p>
+            <descs>联合现在是一个面向全球性质的非盈利组织，以开放性理论作为主要思想意识，开放社区是联合现在开放理论实践的主要实体化呈现，由联合现在章程领导的开放社区。</descs>
+          </titles>
+          <btn-lat>
+            <btn style="background: #006FEAFF;"><smip style="color: white">This</smip><span style="color: white">大会</span></btn>
+            <btn><smip>Next</smip><span>监事会</span></btn>
+            <btn><smip>Next</smip><span>理事会</span></btn>
+          </btn-lat>
+          <end-logo />
+        </end>
+        <copyright>
+          <img src="/img/copyright.png">
+          <ciot>©MIT License</ciot>
+        </copyright>
+      </div>
+    </div>
+  </main>
+</template>
+
+<script>
+export default {
+  name: "OpennessProposal"
+}
+</script>
+
+<style scoped>
+
+</style>
