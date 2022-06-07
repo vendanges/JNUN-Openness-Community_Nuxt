@@ -17,11 +17,10 @@ export default {
       { rel: 'stylesheet', href: '/css/bulma.css' },
       { rel: 'stylesheet', href: '/css/style.css' },
       { rel: 'stylesheet', href: '/css/swiper-bundle.css' },
-      { rel: 'stylesheet', href: '/css/layui.css' }
     ],
     script: [
-      { src: '/js/layui.js', charset: 'utf-8' },
       { src: '/js/jquery.min.js', charset: 'utf-8'},
+      { src: '/js/swiper-bundle.js', charset: 'utf-8'},
     ]
   },
 

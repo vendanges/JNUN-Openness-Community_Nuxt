@@ -42,7 +42,7 @@
         <div class="navbar-item">
           <div class="columns" style="display: block">
             <div class="column">
-              <ui class="navbar-column_layout">
+              <ul class="navbar-column_layout">
                 <li><a class="navbar-item navbar-title_a"><img src="/img/_navigation/login_nav_icon.png" width="26.3" height="19.29" style="margin-right: 6px;vertical-align: -2px" />登录</a></li>
                 <li><a class="navbar-item navbar-title_a"><img src="/img/_navigation/language_nav_icon.png" width="21" height="20" style="margin-right: 6px;vertical-align: -2px"/>
                   语言</a></li>
@@ -50,7 +50,7 @@
                   搜索</a></li>
                 <li><a class="navbar-item navbar-title_a"><img src="/img/_navigation/accessible_nav_icon.png" width="23" height="23" style="margin-right: 6px;vertical-align: -4px;"/>
                   无障碍</a></li>
-              </ui>
+              </ul>
             </div>
             <div class="column"><a class="navbar-item navbar-back_announcement">#(P)22-0502 未来可能发生的域名争议</a></div>
           </div>

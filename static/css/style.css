@@ -779,7 +779,7 @@ mobile banner body {
   width: 94px;
   right: -1204px;
   position: relative;
-  top: -1321px;
+  top: -1341px;
 }
 
 .openness_proposal-main_idea_update {
@@ -831,6 +831,19 @@ mobile banner body {
   margin-left: -20px;
 }
 
+.layui-colla-title {
+  position: relative;
+  height: auto;
+  line-height: 25px;
+  padding: 0 15px 0 35px;
+  color: #0B1746;
+  background-color: #F2F3F5;
+  cursor: pointer;
+  font-size: 13px;
+  overflow: hidden;
+  border-bottom: 1px solid #d0d0d0;
+}
+
 .layui-colla-item down {
   /* left: 65px; */
   top: 10px;
@@ -844,6 +857,12 @@ mobile banner body {
   background-position: center left;
   left: 230px;
   position: inherit;
+}
+
+.layui-collapse {
+  height: 560px;
+  border-radius: 2px;
+  margin-top: 24px;
 }
 
 sidebar-condesc {
@@ -1240,7 +1259,7 @@ end end-logo {
   height: 298px;
   width: 496px;
   display: block;
-  margin-top: -237px;
+  margin-top: -257px;
   position: relative;
   left: 886px;
 }
